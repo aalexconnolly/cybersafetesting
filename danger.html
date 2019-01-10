@@ -1,0 +1,241 @@
+<!doctype html> <!--this tag is needed, tells the browser that the page is a html page--> <!-- comment = cmd, alt / -->
+<html lang="en"> <!--html is the tag, lang is an attribute of that tag.-->
+  <head> <!--The head is the brain, we can't see anything on our webpage in here-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8"> <!--some characters are not recognised eg " € $.  utf-8 is a set of characters we will need-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!--this line renders the page content as good as possible on any device-->
+    <!-- Here we are linking to Bootstrap CSS -->
+        
+      <link href="https://fonts.googleapis.com/css?family=Oswald:600|Roboto:300" rel="stylesheet">
+      
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+      <!--Here I will link my own css page. We load bootstrap first and then ours-->
+      
+        <link rel= "stylesheet" type="text/css" href="css/stylesheet.css">
+    
+      <link rel="icon" type="image/png" href="images/favicons/danger_icon.ico" sizes="32x32" />
+      <link rel="icon" type="image/png" href="images/favicons/danger_icon_2.ico" sizes="16x16" />
+       
+      <title>Dangers</title> <!--page title-->
+    </head> <!--closing head-->
+    <!--  /////////////////////OPENING CONTAINER///////////////////////////-->
+    <body>
+    <div class="container-fluid">
+  
+        <div class="row">
+            <div class="col">
+           <a href="home.html" class="home"> <img src="images/home.png"></a>
+        </div>
+        </div>
+        
+     
+        
+<div class="panel" data-color="palered">        
+   <!--  /////////////////////ROW 1///////////////////////////-->
+
+ 
+ <div class="row">  
+             <div class="col locationrow1">
+                 <h1 class="location"> DANGERS </h1>
+           </div>     
+     </div>    
+        
+       <script>
+       document.addEventListener('DOMContentLoaded',function(event){
+  // array with texts to type in typewriter
+  var dataText = [ "DANGERS" ];
+  
+  // type one text in the typwriter
+  // keeps calling itself until the text is finished
+  function typeWriter(text, i, fnCallback) {
+    // chekc if text isn't finished yet
+    if (i < (text.length)) {
+      // add next character to h1
+     document.querySelector("h1").innerHTML = text.substring(0, i+1) +'<span class="span2" aria-hidden="true"></span>';
+
+      // wait for a while and call this function again for next character
+      setTimeout(function() {
+        typeWriter(text, i + 1, fnCallback)
+      }, 100);
+    }
+    // text finished, call callback if there is a callback function
+    else if (typeof fnCallback == 'function') {
+      // call callback after timeout
+      setTimeout(fnCallback, 700);
+    }
+  }
+  // start a typewriter animation for a text in the dataText array
+   function StartTextAnimation(i) {
+     if (typeof dataText[i] == 'undefined'){
+        setTimeout(function() {
+          StartTextAnimation(0);
+        }, 20000);
+     }
+     // check if dataText[i] exists
+    if (i < dataText[i].length) {
+      // text exists! start typewriter animation
+     typeWriter(dataText[i], 0, function(){
+       // after callback (and whole text has been animated), start next text
+       StartTextAnimation(i + 1);
+     });
+    }
+  }
+  // start the text animation
+  StartTextAnimation(0);
+});
+        </script>
+        
+     
+ <!--  ////////////////////// ROW 4///////////////////////////-->       
+        <div class="row privrow4">
+            <div class="scroll-down"></div>
+        </div>
+  <!--  ////////////////////// ROW 4///////////////////////////-->  
+        
+        </div> 
+        
+        
+        
+        
+        
+        
+ 
+            
+            
+            
+            
+   <div class="panel" data-color="red">        
+     <div class="slideshow-container">
+
+
+       
+       
+<div class="slideshow-container">
+
+<div class="mySlides fade"> 
+  <div><h3 id="slidetext"> <span class="textblack">90%</span> OF <span class="textblack">8-12 </span>YEAR OLDS<br> HAVE WATCHED <span class="textblack">PORN</span> AT<br> LEAST ONCE</h3></div>  
+</div>
+
+<div class="mySlides fade"> 
+	<div>
+	<h3 id="slidetext"> <span class="textblack">56%		</span> OF CHILDREN KNOW<br> MORE ABOUT <span 				class="textblack">SOCIAL MEDIA <br></span> THAN THEIR 		PARENTS </h3></div>
+</div>
+
+<div class="mySlides fade">
+        <div><h3 id="slidetext"> <span 						class="textblack">53%</span>OF CHILDREN HAVE<br> 			PLAYED/TALKED WITH<br> <span 								class="textblack">STRANGERS</span> ONLINE</h3>			</div>
+</div>
+
+<div class="mySlides fade">
+		 <div><h3 id="slidetext"> <span class="textblack">30%</span> OF <span class="textblack">12-13</span> YEAR OLDS<br> HAVE SENT IMAGES WITH<br> <span class="textblack">SEXUAL</span> CONTENT</h3>			</div>
+</div>
+
+<div class="mySlides fade">
+    <div><h3 id="slidetext"> <span class="textblack">17%</span> OF <span class="textblack">12-13 </span>YEAR <br>OLDS HAVE EXPERIENCED <span class="textblack">CYBERBULLYING</span></h3></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)"><div class="prevarrow"></div></a>
+<a class="next" onclick="plusSlides(1)"><div class="nextarrow"></div></a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+</div>
+
+
+       
+       </div>  
+        
+        
+        
+        
+        
+      <div class="panel" data-color="palered">  
+                
+     <!-- /////////////////NEXT BUTTONS//////////////////   -->        
+     <div class="dangerrow1">
+                    
+          
+          <div class="">                
+                   <a href="convo.html" class="supportbutton2 green">TALKING TECH<img src="images/convo.gif" class="supportsm2"><!--<div class="arrowleft"></div>--></a>             
+               </div>
+         <div class="dangerspan1"></div>
+              <div class="">               
+                   <a href="friendrequest.html" class="requestbutton blue"><img src="images/friend_request.gif" class="requestsm">FRIEND REQUESTS<!--<div class="arrowleft"></div>--></a>            
+               </div>
+
+       
+        </div> 
+      <!-- /////////////////NEXT BUTTONS//////////////////   -->  
+       
+        </div> 
+        
+        
+        
+        
+        </div><!--closing container-->
+       
+        
+        
+        
+        
+        
+        
+      <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script> 
+
+            <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "50%";
+            }
+
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+       
+      <script SRC="https://code.jquery.com/jquery-2.2.4.min.js">
+            </script>
+        <script src="java/java.js"></script>
+        
+        
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html> <!--this tag is needed, tells the browser that the page is a html page--> <!-- comment = cmd, alt / -->
+<html lang="en"> <!--html is the tag, lang is an attribute of that tag.-->
+  <head> <!--The head is the brain, we can't see anything on our webpage in here-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8"> <!--some characters are not recognised eg " € $.  utf-8 is a set of characters we will need-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!--this line renders the page content as good as possible on any device-->
+    <!-- Here we are linking to Bootstrap CSS -->
+      
+      <link href="https://fonts.googleapis.com/css?family=Oswald:600|Roboto:100" rel="stylesheet">
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!--Here I will link my own css page. We load bootstrap first and then ours-->
+      
+     <link rel="icon" type="image/png" href="images/favicons/request_icon.ico" sizes="32x32" />
+      <link rel="icon" type="image/png" href="images/favicons/request_icon_2.ico" sizes="16x16" />
+       
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel= "stylesheet" type="text/css" href="css/stylesheet.css">
+    
+       
+      <title>Talking Tech</title> <!--page title-->
+    </head> <!--closing head-->
+    
+    <body class="redbody">
+    <div class="slideshow-container">
+
+
+       
+       
+<div class="slideshow-container">
+
+<div class="mySlides fade"> 
+  <div><h3 id="slidetext"> <span class="textblack">90%</span> OF <span class="textblack">8-12 </span>YEAR OLDS<br> HAVE WATCHED <span class="textblack">PORN</span> AT<br> LEAST ONCE</h3></div>  
+</div>
+
+<div class="mySlides fade"> 
+	<div>
+	<h3 id="slidetext"> <span class="textblack">56%		</span> OF CHILDREN KNOW<br> MORE ABOUT <span 				class="textblack">SOCIAL MEDIA <br></span> THAN THEIR 		PARENTS </h3></div>
+</div>
+
+<div class="mySlides fade">
+        <div><h3 id="slidetext"> <span 						class="textblack">53%</span>OF CHILDREN HAVE<br> 			PLAYED/TALKED WITH<br> <span 								class="textblack">STRANGERS</span> ONLINE</h3>			</div>
+</div>
+
+<div class="mySlides fade">
+		 <div><h3 id="slidetext"> <span class="textblack">30%</span> OF <span class="textblack">12-13</span> YEAR OLDS<br> HAVE SENT IMAGES WITH<br> <span class="textblack">SEXUAL</span> CONTENT</h3>			</div>
+</div>
+
+<div class="mySlides fade">
+    <div><h3 id="slidetext"> <span class="textblack">17%</span> OF <span class="textblack">12-13 </span>YEAR <br>OLDS HAVE EXPERIENCED <span class="textblack">CYBERBULLYING</span></h3></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)"><div class="prevarrow"></div></a>
+<a class="next" onclick="plusSlides(1)"><div class="nextarrow"></div></a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+</script> 
+        
+        
+        
+       
+       <script SRC="https://code.jquery.com/jquery-2.2.4.min.js">
+            </script>
+        <script src="java/java.js"></script>
+        
+        
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    </body>
+</html>

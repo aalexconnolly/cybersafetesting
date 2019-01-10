@@ -1,0 +1,203 @@
+<!doctype html> <!--this tag is needed, tells the browser that the page is a html page--> <!-- comment = cmd, alt / -->
+<html lang="en"> <!--html is the tag, lang is an attribute of that tag.-->
+  <head> <!--The head is the brain, we can't see anything on our webpage in here-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8"> <!--some characters are not recognised eg " € $.  utf-8 is a set of characters we will need-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!--this line renders the page content as good as possible on any device-->
+    <!-- Here we are linking to Bootstrap CSS -->
+        
+      <link href="https://fonts.googleapis.com/css?family=Oswald:600|Roboto:700,100" rel="stylesheet">
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!--Here I will link my own css page. We load bootstrap first and then ours-->
+      
+        <link rel= "stylesheet" type="text/css" href="css/stylesheet.css">
+   
+      <link rel="icon" type="image/png" href="images/favicons/location_icon.ico" sizes="32x32" />
+      <link rel="icon" type="image/png" href="images/favicons/location_icon_2.ico" sizes="16x16" />
+       
+      <title>Location Setting</title> <!--page title-->
+    </head> <!--closing head-->
+    <!--  /////////////////////OPENING CONTAINER///////////////////////////-->
+    <body>
+    <div class="container-fluid">
+  
+        <div class="row">
+            <div class="col">
+           <a href="home.html" class="home"> <img src="images/home.png"></a>
+        </div>
+        </div>
+        
+     
+        
+<div class="panel" data-color="palered">        
+   <!--  /////////////////////ROW 1///////////////////////////-->
+
+ 
+ <div class="row">  
+             <div class="col locationrow1">
+                 <h1 class="location"> LOCATION SETTINGS </h1>
+           </div>     
+     </div>    
+        
+       <script>
+       document.addEventListener('DOMContentLoaded',function(event){
+  // array with texts to type in typewriter
+  var dataText = [ "LOCATION SETTINGS" ];
+  
+  // type one text in the typwriter
+  // keeps calling itself until the text is finished
+  function typeWriter(text, i, fnCallback) {
+    // chekc if text isn't finished yet
+    if (i < (text.length)) {
+      // add next character to h1
+     document.querySelector("h1").innerHTML = text.substring(0, i+1) +'<span class="span2" aria-hidden="true"></span>';
+
+      // wait for a while and call this function again for next character
+      setTimeout(function() {
+        typeWriter(text, i + 1, fnCallback)
+      }, 100);
+    }
+    // text finished, call callback if there is a callback function
+    else if (typeof fnCallback == 'function') {
+      // call callback after timeout
+      setTimeout(fnCallback, 700);
+    }
+  }
+  // start a typewriter animation for a text in the dataText array
+   function StartTextAnimation(i) {
+     if (typeof dataText[i] == 'undefined'){
+        setTimeout(function() {
+          StartTextAnimation(0);
+        }, 20000);
+     }
+     // check if dataText[i] exists
+    if (i < dataText[i].length) {
+      // text exists! start typewriter animation
+     typeWriter(dataText[i], 0, function(){
+       // after callback (and whole text has been animated), start next text
+       StartTextAnimation(i + 1);
+     });
+    }
+  }
+  // start the text animation
+  StartTextAnimation(0);
+});
+        </script>
+        
+     
+ <!--  ////////////////////// ROW 4///////////////////////////-->       
+        <div class="row">
+            <div class="scroll-down"></div>
+        </div>
+  <!--  ////////////////////// ROW 4///////////////////////////-->     </div>         
+            
+            
+            
+   <div class="panel" data-color="red">    
+       
+       
+       <div class="row">
+          <div class="introloc"> 
+            <p class="intro">So you dont know anything about your location settings? Well that’s not good enough. Just kidding, we’ve all been there. Lucky for you we’ve got some helpful tips to master the art <br class="onbr">of turning off your <span class="bold"><a href="#" class="loclink1">location settings.</a></span></p>
+        </div> 
+       </div>
+       
+       
+       
+     <!--  ////////////////////// MAP 4///////////////////////////-->   
+       <div class="row maprow maprow2">
+              <div class="">
+                <img src="images/maptrans.png" alt="Responsive image" class="img-fluid map">
+                  <img src="images/map_icons.gif" class="img-fluid privacy_icons">
+             </div>
+            <div>
+            </div>       
+       </div>
+       
+       <div class="row maprow">
+           <div class="maptitle2">
+        <h3 class="maptitle">DO YOU WANT EVERYONE TO<br> KNOW <span class="black">WHERE YOU ARE</span> ALL<br> THE TIME?</h3>
+            </div>
+    </div>
+        <!--  ////////////////////// MAP 4///////////////////////////-->  
+       </div>  
+        
+        
+        
+        
+        
+      <div class="panel" data-color="palered">  
+                
+      <!--  ///////////////////BOOPER////////////////////////-->   
+          
+       <div class="row locrow2">
+          <div class="locationp1"> 
+            <img src="images/location_bounce.gif" alt="Responsive image" class="img-fluid locbounce">
+              <h2 class="red">SHARING YOUR LOCATION</h2>
+            <p class="white">Always remember to turn off your location sharing on all apps and games you and your children use. Especially on social media platforms such as Facebook and Snapchat. Oh and don’t forget to do it on all of your devices. <span class="bold"><a href="#" class="loclink1">Here’s a link on how to do it.</a></span></p>
+        </div> 
+    </div>   
+          
+          
+     <!--  /////////////////////BOOPER///////////////////////////-->         
+          
+          
+          
+          
+          
+          
+          
+          <div class="row icrow2">
+          
+                     
+                   <a href="screen_time.html" class="screenbutton blue">SCREEN TIME<!--<div class="arrowleft"></div>--><img src="images/eye.gif" class="screensm"></a>            
+             
+                    <div class="gap"></div>
+                        
+                   <a href="validation.html" class="validbutton blue"><img src="images/validation.gif" class="validsm">ONLINE VALIDATION<!--<div class="arrowleft"></div>--></a>             
+            
+               
+        </div> 
+       
+          
+          <div class="row">
+              <div class="col">
+          <a href="https://cybersafeireland.org/" class="footerred footer red">WWW.CYBERSAFEIRELAND.ORG</a>
+          </div>
+          </div>
+       </div> 
+        
+        
+        </div><!--closing container-->
+       
+        
+        
+        
+        
+        
+        
+      
+            <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "50%";
+            }
+
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+       
+      <script SRC="https://code.jquery.com/jquery-2.2.4.min.js">
+            </script>
+        <script src="java/java.js"></script>
+        
+        
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

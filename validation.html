@@ -1,0 +1,202 @@
+<!doctype html> <!--this tag is needed, tells the browser that the page is a html page--> <!-- comment = cmd, alt / -->
+<html lang="en"> <!--html is the tag, lang is an attribute of that tag.-->
+  <head> <!--The head is the brain, we can't see anything on our webpage in here-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8"> <!--some characters are not recognised eg " € $.  utf-8 is a set of characters we will need-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!--this line renders the page content as good as possible on any device-->
+    <!-- Here we are linking to Bootstrap CSS -->
+        
+      <link href="https://fonts.googleapis.com/css?family=Oswald:600|Roboto:100,700" rel="stylesheet">
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!--Here I will link my own css page. We load bootstrap first and then ours-->
+      
+        <link rel= "stylesheet" type="text/css" href="css/stylesheet.css">
+    
+      <link rel="icon" type="image/png" href="images/favicons/valid.ico" sizes="32x32" />
+      <link rel="icon" type="image/png" href="images/favicons/valid_2.ico" sizes="16x16" />
+       
+      <title>Online Validation</title> <!--page title-->
+    </head> <!--closing head-->
+    <!--  /////////////////////OPENING CONTAINER///////////////////////////-->
+    <body class="bodyblue">
+    <div class="container-fluid">
+  
+        <div class="row">
+            <div class="col">
+           <a href="home.html" class="home"> <img src="images/home.png"></a>
+        </div>
+        </div>
+        
+     
+        
+<div class="panel" data-color="paleblue">        
+   <!--  /////////////////////ROW 1///////////////////////////-->
+
+ 
+ <div class="row">  
+             <div class="col validationrow1">
+                 <h1 class="validation"> ONLINE VALIDATION </h1>
+           </div>     
+     </div>    
+        
+       <script>
+       document.addEventListener('DOMContentLoaded',function(event){
+  // array with texts to type in typewriter
+  var dataText = [ "ONLINE VALIDATION" ];
+  
+  // type one text in the typwriter
+  // keeps calling itself until the text is finished
+  function typeWriter(text, i, fnCallback) {
+    // chekc if text isn't finished yet
+    if (i < (text.length)) {
+      // add next character to h1
+     document.querySelector("h1").innerHTML = text.substring(0, i+1) +'<span class="span2" aria-hidden="true"></span>';
+
+      // wait for a while and call this function again for next character
+      setTimeout(function() {
+        typeWriter(text, i + 1, fnCallback)
+      }, 100);
+    }
+    // text finished, call callback if there is a callback function
+    else if (typeof fnCallback == 'function') {
+      // call callback after timeout
+      setTimeout(fnCallback, 700);
+    }
+  }
+  // start a typewriter animation for a text in the dataText array
+   function StartTextAnimation(i) {
+     if (typeof dataText[i] == 'undefined'){
+        setTimeout(function() {
+          StartTextAnimation(0);
+        }, 20000);
+     }
+     // check if dataText[i] exists
+    if (i < dataText[i].length) {
+      // text exists! start typewriter animation
+     typeWriter(dataText[i], 0, function(){
+       // after callback (and whole text has been animated), start next text
+       StartTextAnimation(i + 1);
+     });
+    }
+  }
+  // start the text animation
+  StartTextAnimation(0);
+});
+        </script>
+        
+     
+ <!--  ////////////////////// ROW 4///////////////////////////-->       
+        <div class="row privrow4">
+            <div class="scroll-down"></div>
+        </div>
+  <!--  ////////////////////// ROW 4///////////////////////////-->  
+    
+   
+    
+    
+    
+        
+        </div> 
+        
+        
+        
+        
+        
+        
+ 
+            
+            
+            
+            
+   <div class="panel" data-color="blue">        
+      <div class="row">
+          <div class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-10 offset-sm-2 col-10 offset-1"> 
+             <p class="intro screentimep1">One of the bad things about the internet is <span class="bold white">social media</span> . It’s not neccesarily all bad but it is making children and even adults crave a <span class="bold white">sense of validation</span> from the things they post. Which is not good! </p>
+        </div> 
+       
+       </div>  
+        
+        
+        
+        
+        
+      <div class="panel" data-color="paleblue">  
+    <!-- /////////////////NEXT BUTTONS//////////////////   -->        
+          
+           <div class="row screenrow5">
+          <div class="col-12 heartbouncepad col-sm-12 col-lg-2 col-xl-2 offset-xl-1 col-md-2 offset-lg-1 col-xs-12">
+                <img src="images/heart_bounce.gif" alt="Responsive image" class="heartbounce">
+              </div>
+               
+               
+               <div class="col-lg-6 col-md-8 col-sm-10 offset-sm-1 col-10 offset-1"> 
+           
+              <h2 class="white">LIKES, LIKES & MORE LIKES</h2>
+            <p class="validp blue">Most social media platforms have some sort of ‘like’ system. This type of system affects children’s <span class="bold blue">self esteem</span> and leads them to crave a sense of validation from their peers and even strangers online. Some children can even begin to measure their <span class="bold blue">self-worth</span> from this.</p>
+        </div> 
+    </div>
+          
+          
+          
+          
+          
+          
+     <div class="row icrow2">
+                         
+                   <a href="location.html" class="redbutton2 red">LOCATION SETTINGS<!--<div class="arrowleft"></div>--><img src="images/location.gif" class="locationsm2"></a>            
+
+            <div class="gap"></div>
+              
+                   <a href="support.html" class="supportbutton green"><img src="images/support.gif" class="supportsm">SUPPORT<!--<div class="arrowleft"></div>--></a>             
+
+       
+        </div> 
+      <!-- /////////////////NEXT BUTTONS//////////////////   -->  
+        
+       
+       
+       <div class="row">
+              <div class="col">
+          <a href="https://cybersafeireland.org/" class="footerred footer blue">WWW.CYBERSAFEIRELAND.ORG</a>
+          </div>
+          </div>
+       
+       
+       </div> 
+        
+        
+        
+        
+        </div><!--closing container-->
+       
+        
+        
+        
+        
+        
+        
+      
+            <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "50%";
+            }
+
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+       
+      <script SRC="https://code.jquery.com/jquery-2.2.4.min.js">
+            </script>
+        <script src="java/java.js"></script>
+        
+        
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

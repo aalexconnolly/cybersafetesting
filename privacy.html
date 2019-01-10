@@ -1,0 +1,230 @@
+<!doctype html> <!--this tag is needed, tells the browser that the page is a html page--> <!-- comment = cmd, alt / -->
+<html lang="en"> <!--html is the tag, lang is an attribute of that tag.-->
+  <head> <!--The head is the brain, we can't see anything on our webpage in here-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8"> <!--some characters are not recognised eg " € $.  utf-8 is a set of characters we will need-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!--this line renders the page content as good as possible on any device-->
+    <!-- Here we are linking to Bootstrap CSS -->
+        
+      <link href="https://fonts.googleapis.com/css?family=Oswald:600|Roboto:100,700" rel="stylesheet">
+      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!--Here I will link my own css page. We load bootstrap first and then ours-->
+    
+       <link rel="icon" type="image/png" href="images/favicons/privacy_icon.ico" sizes="32x32" />
+      <link rel="icon" type="image/png" href="images/favicons/privacy_icon_2.ico" sizes="16x16" />
+        
+      
+      <link rel= "stylesheet" type="text/css" href="css/stylesheet.css">
+    
+       
+      <title>Privacy Settings</title> <!--page title-->
+    </head> <!--closing head-->
+    <!--  /////////////////////OPENING CONTAINER///////////////////////////-->
+    <body>
+    <div class="container-fluid">
+  
+        <div class="row">
+            <div class="col">
+           <a href="home.html" class="home"> <img src="images/home.png"></a>
+        </div>
+        </div>
+        
+     
+        
+<div class="panel" data-color="palepurple">        
+   <!--  /////////////////////ROW 1///////////////////////////-->
+
+ 
+ <div class="row">  
+             <div class="col privacyrow1">
+                 <h1 class="privacy"> PRIVACY SETTINGS </h1>
+           </div>     
+     </div>    
+        
+       <script>
+       document.addEventListener('DOMContentLoaded',function(event){
+  // array with texts to type in typewriter
+  var dataText = [ "PRIVACY SETTINGS" ];
+  
+  // type one text in the typwriter
+  // keeps calling itself until the text is finished
+  function typeWriter(text, i, fnCallback) {
+    // chekc if text isn't finished yet
+    if (i < (text.length)) {
+      // add next character to h1
+     document.querySelector("h1").innerHTML = text.substring(0, i+1) +'<span class="span2" aria-hidden="true"></span>';
+
+      // wait for a while and call this function again for next character
+      setTimeout(function() {
+        typeWriter(text, i + 1, fnCallback)
+      }, 100);
+    }
+    // text finished, call callback if there is a callback function
+    else if (typeof fnCallback == 'function') {
+      // call callback after timeout
+      setTimeout(fnCallback, 700);
+    }
+  }
+  // start a typewriter animation for a text in the dataText array
+   function StartTextAnimation(i) {
+     if (typeof dataText[i] == 'undefined'){
+        setTimeout(function() {
+          StartTextAnimation(0);
+        }, 20000);
+     }
+     // check if dataText[i] exists
+    if (i < dataText[i].length) {
+      // text exists! start typewriter animation
+     typeWriter(dataText[i], 0, function(){
+       // after callback (and whole text has been animated), start next text
+       StartTextAnimation(i + 1);
+     });
+    }
+  }
+  // start the text animation
+  StartTextAnimation(0);
+});
+        </script>
+        
+     
+ <!--  ////////////////////// ROW 4///////////////////////////-->       
+        <div class="row privrow4">
+            <div class="scroll-down"></div>
+        </div>
+  <!--  ////////////////////// ROW 4///////////////////////////-->  
+        
+        </div> 
+        
+        
+        
+        
+        
+        
+ 
+            
+            
+            
+            
+   <div class="panel" data-color="purple">  
+       
+       
+       <div class="row">
+          <div class="col intropriv"> 
+            <p class="intro">This section is all about the private parts (not the ones you’re thinking of). We want you to know how important it is to have you and your childrens <span class="bold white">accounts on private.</span> We’ll also show you how to do it. Go us!</p>
+        </div> 
+        
+       </div>  
+       
+       
+       
+       
+       
+       <div class="row">
+          <div class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-10 offset-sm-2 col-10 offset-1"> 
+            <p class="intro privp1">This section is all about the private parts (not the ones you’re thinking of). We want you to know how important it is to have you and your childrens <span class="bold white">accounts on private.</span> We’ll also show you how to do it. Go us!</p>
+        </div> 
+        
+       </div> 
+       
+       
+     
+        <div class="privacyswitch"><h4>PRIVACY</h4></div>
+    <!-- ///////////////////////////////////  -->
+                <div class="off"><img src="images/privacyoff.png">
+            </div>
+       
+       <div class="dropdownglyph"> 
+                  <div class="on"><img src="images/privacyon.png"></div>
+                    <div class="dropdowncontentglyph"><img src="images/pop_ups.gif" class="popcomp"><img src="images/po_ups_phone.gif" class="popphone"></div>
+          </div>
+       
+      <!-- ///////////////////////////////////  -->  
+       
+       
+       
+       </div>  
+        
+        
+        
+        
+        
+      <div class="panel" data-color="palepurple">  
+                
+          
+          
+          <div class="row priv1">
+            <div class="col-lg-6 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-1">
+                <h2 class="white privh1">PRIVACY SETTINGS</h2>
+                <p class="privacyp1 purple">Every social media platform and online gaming application offer privacy settings, it’s just a matter of finding them. It's very important to ensure that your childs privacy settings are always on. These settings keep you and your child safe online. </p>
+            </div>
+        </div>
+          
+          
+           <div class="row">
+            <img src="images/privacy_icons.gif" class="privicongif">
+        </div>
+          
+          
+          
+          
+          
+     
+        <!-- /////////////////NEXT BUTTONS//////////////////   -->        
+     <div class="row icrow2">
+                    
+          
+                         
+                   <a href="support.html" class="supportbutton2 green">SUPPORT<img src="images/support.gif" class="supportsm2"><!--<div class="arrowleft"></div>--></a>       
+         
+               <div class="gap"></div>    
+         
+                   <a href="convo.html" class="convobutton green"><img src="images/convo.gif" class="convosm">TALKING TECH<!--<div class="arrowleft"></div>--></a>            
+          
+
+       
+        </div> 
+          
+          <div class="row">
+              <div class="col">
+          <a href="https://cybersafeireland.org/" class="footerred footer purple">WWW.CYBERSAFEIRELAND.ORG</a>
+          </div>
+          </div>
+      <!-- /////////////////NEXT BUTTONS//////////////////   -->  
+        </div> 
+        
+        
+        
+        
+        </div><!--closing container-->
+       
+        
+        
+        
+        
+        
+        
+      
+            <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "50%";
+            }
+
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+       
+      <script SRC="https://code.jquery.com/jquery-2.2.4.min.js">
+            </script>
+        <script src="java/java.js"></script>
+        
+        
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
