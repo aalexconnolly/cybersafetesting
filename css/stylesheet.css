@@ -601,6 +601,7 @@ p{
     max-width: 440px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 250px;
 }
 
 .dangertitle{
@@ -883,9 +884,6 @@ h1{
  z-index: 1;
     position: absolute;
     overflow: hidden;
-    width: 90vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
 }
 
 .popphone{
@@ -893,6 +891,11 @@ h1{
 }
 .maprow2{
     padding-top: 30vh;
+}
+.mapdiv{
+     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .loclink1{
     color:white;
@@ -951,20 +954,25 @@ h1{
     padding-right: 40px;
 }
 .validrow1{
-      padding-top: 380px; 
+      padding-top: 300px; 
       max-width: 850px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .validp{
-    padding-bottom: 240px;
+    padding-bottom: 300px;
     max-width: 590px;
     float: right;
 }
 
 .introvalid{
     max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heartsup{
+    max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1500,6 +1508,7 @@ margin-left: auto;
         margin-right: auto;
         max-width:648px;
      padding-top: 100px;
+     padding-bottom: 200px;
     }
 
     .network1{
@@ -1954,7 +1963,7 @@ width: 500px;
         margin-right: auto;
 }
 .validrow1{
-      padding-top: 380px; 
+      padding-top: 200px; 
       max-width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -2453,5 +2462,23 @@ width: 400px;
     padding-top: 20vh;
         padding-bottom: 10vh;
 }
-    
+ #slidetext {
+  font-size: 44px;
+  width: 80vw;
+  text-align: left;
+    margin-top: 0vh;
+    line-height: 50px;
+}   
+    .explicitphone{
+        padding-top: 40vh;
+    }
+    .explicitp{
+        max-width: 280px;
+        margin-top: 20px;
+        float: left;
+        margin-left: 15vw;
+    }
+    .supportdanger{
+        margin-bottom: 20px !important;
+    }
 }
