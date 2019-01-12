@@ -290,6 +290,7 @@ p{
     font-size: 27px;
     line-height: 36px;
     font-family: Roboto;
+    font-weight: 100;
 }
 
 
@@ -719,6 +720,7 @@ h4{
     max-width: 580px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 200px;
 }
 .introscreen{
     max-width: 608px;
@@ -1708,6 +1710,7 @@ margin-left: auto;
     max-width: 945px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 40vh;
 }
 .contactgap{
     padding-left: 150px;
@@ -1906,6 +1909,7 @@ width: 500px;
     p{
         font-size: 18px !important;
         line-height: 24px !important;
+        font-weight: 100;
     }
      .screentimep1{
     max-width: 387px;
@@ -2352,6 +2356,7 @@ width: 400px;
         max-width: 300px !important;
         margin-left: auto;
         margin-right: auto;
+        font-weight: 300;
     }
      h1{
         font-size: 72px !important; 
@@ -2381,8 +2386,8 @@ width: 400px;
 
     .maptitle{
        font-size: 44px !important;
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     
     .locbounce{
@@ -2443,6 +2448,10 @@ width: 400px;
     margin-top: 0px;
     margin-left: -15px;
     z-index: 100;
+}
+    .maprow2{
+    padding-top: 20vh;
+        padding-bottom: 10vh;
 }
     
 }
