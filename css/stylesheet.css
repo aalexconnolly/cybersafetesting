@@ -106,7 +106,7 @@ body {
 }
 
 .hometitle{
-    font-size: 3.4vh;
+    font-size: 27px;
     color: white;
     z-index: 4;
     margin-top: 14.8vh;
@@ -1665,13 +1665,16 @@ margin-left: auto;
     font-family: Roboto;
     font-size: 18px;
     line-height: 24px;
-    margin-top: -450px;
+    margin-top: -100%;
     position: relative;
-    margin-left: 20px;
-    margin-right: 20px;
+ 
 }
 
-
+.warning{
+       max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -2479,6 +2482,23 @@ width: 400px;
         margin-left: 15vw;
     }
     .supportdanger{
-        margin-bottom: 20px !important;
+        
+    }
+    .heartbounce{
+    max-width: 150px;
+    margin-left: auto;
+        margin-right: auto;
+        margin-top: -200px;
+}
+.heartbounce2{
+    padding-right: 40px;
+}
+    .warning{
+       max-width: 100px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .warningp{
+        font-size: 16px;
     }
 }
