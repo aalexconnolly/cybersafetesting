@@ -122,6 +122,12 @@ body {
 .blue{
     color:#008cff; 
 }
+.ablack:hover{
+    color: black;
+}
+.blue2{
+    color: #6cccff;
+}
 .red{
     color:#fc5162; 
 }
@@ -1326,7 +1332,45 @@ background-color: black;
     border-left-color: black;
 }
 /*//////////////////SLIDESHOW/////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*////////////////FREIND REQUEST////////////////////*/
+
+.introrequest{
+   max-width: 608px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30vh;
+}
+.requestp{
+    max-width: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* The Modal (background) */
 .modal {
@@ -1455,6 +1499,13 @@ margin-left: auto;
         max-width:648px;
      padding-top: 100px;
     }
+
+    .network1{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+    }
+
 /*////////////////SUPPORT////////////////////*/
 
 
@@ -1577,8 +1628,9 @@ margin-left: auto;
     box-shadow: -5px 5px 10px #00ce9c !important; 
 }
 .modalcontract2{
-    padding-top: 70vh;
+    padding-top: 50vh;
 }
+
 /*////////////////CONTRACT////////////////////*/
 
 
@@ -1617,16 +1669,59 @@ margin-left: auto;
 
 .phonehome{
     display: none;
+    padding-top: 15vh;
 }
 .comphome{
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-top: 15vh;
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+
+
+.cyberintro{
+    max-width: 590px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+}
+.contactlinks{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactgap{
+    padding-left: 150px;
 }
 .contactlink{
     font-family: Roboto;
     font-size: 18px;
-    font-weight: 700;  
+    font-weight: 700;
+    text-align: center;
+}
+.centrecontact{
+    max-width: 215px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .centre{
     text-align: center !important;
@@ -1635,20 +1730,24 @@ margin-left: auto;
     color: white;
 }
 .env1{
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .env2{
     opacity: 0;
     z-index: 6;
     display: block;
-    margin-left: auto;
-    margin-left: auto;
+    margin-left: 7px;
     margin-top: -200px;
 }
 .env2:hover{
     opacity: 100;
 }
+.link1:hover {
+  animation: shake 0.5s; 
 
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
 /*//////////////////CYBERSAFE/////////*/
 
 
@@ -1880,6 +1979,7 @@ width: 500px;
         max-width:369px;
         padding-top: 100px;
     }
+    
     .supportp2{
     margin-left: auto;
     margin-right: auto;
@@ -1983,7 +2083,67 @@ width: 500px;
         margin-right: auto;
         display: block;
     }
-
+.introrequest{
+   max-width: 369px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30vh;
+}
+.requestp{
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+    .cyberintro{
+    max-width: 397px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10vh;
+        padding-bottom: 5vh;
+}
+    
+    
+    
+    .contactlinks{
+    max-width: 215px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactgap{
+    padding-left: 0px;
+    padding-top: 0px
+}
+.contactlink{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.centrecontact{
+    max-width: 215px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centre{
+    text-align: center !important;
+}
+.contactlink:hover{
+    color: white;
+}
+.env2{
+    opacity: 0;
+    z-index: 6;
+    display: block;
+    margin-left: 7px;
+    margin-top: -200px;
+}
+    .contacttitle{
+        padding-top: 20px;
+        font-size: 18;
+    }
+    
 }
 
 
@@ -2190,6 +2350,8 @@ width: 400px;
 @media only screen and (max-width: 375px){
     p{
         max-width: 300px !important;
+        margin-left: auto;
+        margin-right: auto;
     }
      h1{
         font-size: 72px !important; 
@@ -2203,6 +2365,9 @@ width: 400px;
     .modal-content{
     width: 300px; 
     }
+    .close {
+  margin-left: 90%;
+}
     
     .popup{
     font-size: 16px;
@@ -2213,13 +2378,71 @@ width: 400px;
     .seriously{
         font-size: 16px;
     }
-    .footerred{
-        float: none;
+
+    .maptitle{
+       font-size: 44px !important;
+        margin-left: 30px;
+        margin-right: 30px;
     }
+    
+    .locbounce{
+    margin-left: auto;
+    margin-right: auto;
+   width: 200px;
+    padding-bottom: 5vh;
+}
+    
     .convotitle{
-       font-size: 44px !important; 
+       font-size: 44px !important;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .bubbles{
-        padding-top: 200px;
+        padding-top: 800px;
     }
+    .on{
+    padding-top: 240px;
+    left: 50px;
+    right: 41vw;
+    background-color: transparent;
+    position: relative;
+    z-index: 5;
+    display: block;  
+}
+.off{
+    background-color: transparent;
+    position: absolute;
+    z-index: 3;
+    display: block;
+    padding-top: 240px;
+    left: 65px;
+    right: 41vw;
+}
+    h4{
+    color: white;
+    font-size: 18px;
+}
+.privacyswitch{
+    left: 160px;
+    margin-top: 270px;
+
+}
+.dropdownglyph:hover .dropdowncontentglyph     {
+    margin-top:-320px;
+    display: block;
+    margin-left: 5px
+    }
+      .priviconphone{
+        width: 95%;
+          height: 95%;
+        display: block;
+        padding-bottom: 200px;
+    }
+    .home{
+    position: fixed !important;
+    margin-top: 0px;
+    margin-left: -15px;
+    z-index: 100;
+}
+    
 }
