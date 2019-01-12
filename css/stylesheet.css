@@ -590,11 +590,12 @@ p{
     padding: 10px;
 }
 .dangerrow1{
- display: inline-block;
+   /* display: inline-block;*/
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.dangerdiv{
-    display: inline-block;
-}
+
 .dangertitle{
     text-align: center;
     font-size: 127px;
@@ -607,9 +608,32 @@ p{
         max-width:580px;
        padding-bottom: 200px;
 }
-
-
-
+.supportdanger{
+    background-color: #65face;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 50px;
+    font-size: 18px;
+    width: 205px;
+    margin-right: 10px;
+}
+.supportdanger:hover{
+   color: white; 
+}
+.requestdanger{
+    background-color: #6cccff;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    font-size: 18px;
+    width: 205px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.requestdanger:hover{
+    color: white;
+    /*background-color: #fc5162;*/
+}
 
 
 
@@ -1935,6 +1959,31 @@ width: 500px;
         margin-right: auto;
         line-height: 60px;
     }
+    
+    .supportdanger{
+    margin-right: 0px;
+        margin-bottom: 1000px;
+    }
+    .supportdanger:hover{
+       color: white; 
+    }
+    .requestdanger{
+        margin-left: 0px;
+        padding-left: 7px;
+        margin-top: 80px;
+    }
+    .requestdanger:hover{
+        color: white;
+        /*background-color: #fc5162;*/
+    }
+    .dangerrow1{
+       /* display: inline-block;*/
+        max-width: 215px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
 }
 
 
@@ -2109,7 +2158,6 @@ width: 400px;
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    float: right;
 }
     .introsupport{
         margin-left: auto;
@@ -2139,4 +2187,39 @@ width: 400px;
 /*//////////////SMALL//////////*/
 
 
-
+@media only screen and (max-width: 375px){
+    p{
+        max-width: 300px !important;
+    }
+     h1{
+        font-size: 72px !important; 
+        line-height: 78px !important;
+        padding-top: 35vh;
+        margin-top: 0 !important;
+    }
+    .onbr{
+        display: none !important;
+    }
+    .modal-content{
+    width: 300px; 
+    }
+    
+    .popup{
+    font-size: 16px;
+    }
+    .accept{
+        font-size: 16px;
+    }
+    .seriously{
+        font-size: 16px;
+    }
+    .footerred{
+        float: none;
+    }
+    .convotitle{
+       font-size: 44px !important; 
+    }
+    .bubbles{
+        padding-top: 200px;
+    }
+}
