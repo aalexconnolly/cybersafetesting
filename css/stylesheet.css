@@ -172,6 +172,9 @@ a:hover{
 .homehtalk{
     margin-left: 25%;
 }
+.homehcyber{
+    margin-left: 18%;
+}
 
 .homebox{ 
     position: relative;
@@ -1516,6 +1519,12 @@ margin-left: auto;
         margin-right: auto;
         max-width: 1000px;
     }
+.network2{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 350px;
+    display: none;
+    }
 
 /*////////////////SUPPORT////////////////////*/
 
@@ -1652,10 +1661,11 @@ margin-left: auto;
     background-size: cover;
     z-index: 1;   
 }
-.warningcomp{
-    margin-left: 10vw;
-    margin-right: 10vw;
-    width: 80vw;
+.warningcomp2{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    overflow: hidden;
 }
 .warningmobile{
     display: none;
@@ -1665,7 +1675,7 @@ margin-left: auto;
     font-family: Roboto;
     font-size: 18px;
     line-height: 24px;
-    margin-top: -100%;
+    margin-top: -60vh;
     position: relative;
  
 }
@@ -1675,9 +1685,22 @@ margin-left: auto;
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
+.backtoweb{
+    background-color: #ffb1ba;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.backrow1{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.webhover:hover{
+    color: white !important;
+}
 
 /*//////////////////CYBERSAFE/////////*/
 
@@ -2159,7 +2182,24 @@ width: 500px;
         padding-top: 20px;
         font-size: 18;
     }
-    
+    .warningp{
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 24px;
+    top: 20vh;
+    position: relative; 
+}
+    .network2{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 350px;
+    display: block;
+    }
+    .network1{
+        display: none;
+    }
+
 }
 
 
@@ -2355,6 +2395,15 @@ width: 400px;
         display: block;
         padding-bottom: 200px;
     }
+      .warningp{
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 24px;
+    top: 0px;
+    position: relative;
+    max-width: 310px;
+}
     
 }
 
@@ -2494,11 +2543,12 @@ width: 400px;
     padding-right: 40px;
 }
     .warning{
-       max-width: 100px !important;
+       max-width: 270px !important;
     margin-left: auto;
     margin-right: auto;
 }
     .warningp{
         font-size: 16px;
+        margin-top: -350px;
     }
 }
