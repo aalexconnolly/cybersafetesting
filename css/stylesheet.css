@@ -9,6 +9,9 @@
     margin-right: auto;
     margin-top: -40px;
 }
+.baff{
+    font-family: 'Oswald';
+}
 .landbody{
     background-color: #c282ef;
     height: 100vh;
@@ -1002,6 +1005,11 @@ h1{
 }
 
 .validp{
+    padding-bottom: 300px;
+    max-width: 590px;
+    float: right;
+}
+.validp2{
     padding-bottom: 300px;
     max-width: 590px;
     float: right;
@@ -2075,6 +2083,13 @@ width: 500px;
     margin-right: auto;
     float: right;
 }
+.validp2{
+    padding-bottom: 240px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
 
 .introvalid{
     max-width: 370px;
@@ -2463,6 +2478,13 @@ width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
+    .validp2{
+    padding-bottom: 240px;
+    max-width: 300px;
+    margin-left: 15vw;
+   
+        float: left;
+}
     .introsupport{
         margin-left: auto;
         margin-right: auto;
@@ -2646,5 +2668,8 @@ width: 400px;
     .warningp{
         font-size: 16px;
         margin-top: -350px;
+    }
+    .baffled{
+        font-size: 72px;
     }
 }
