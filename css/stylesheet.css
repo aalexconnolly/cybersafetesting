@@ -1,7 +1,7 @@
 .baffled{
     text-align: center;
     font-size: 127px;
-    
+    font-weight: 700;
 }
 .baffledtitle{
     max-width: 550px;
@@ -2088,7 +2088,6 @@ width: 500px;
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    float: right;
 }
 
 .introvalid{
@@ -2144,7 +2143,7 @@ width: 500px;
 }
 
 .convorow1{
-      padding-top: 380px; 
+      padding-top: 280px; 
       max-width: 392px;
     margin-left: auto;
     margin-right: auto;
@@ -2152,7 +2151,7 @@ width: 500px;
 
 .convop{
     padding-bottom: 240px;
-    float: right;
+    max-width: 
 }
     .convotitle{
         padding-top: 0vh;
@@ -2169,6 +2168,7 @@ width: 500px;
         height: auto;
         margin-left: auto;
         margin-right: auto;
+        padding-top: 100px;
     }
     .bubblesrow{
         display: none;
@@ -2467,7 +2467,7 @@ width: 400px;
 }
 .validrow1{
       padding-top: 380px; 
-      max-width: 850px;
+      max-width: 280px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -2481,9 +2481,8 @@ width: 400px;
     .validp2{
     padding-bottom: 240px;
     max-width: 300px;
-    margin-left: 15vw;
-   
-        float: left;
+   margin-left: auto;
+        margin-right: auto;
 }
     .introsupport{
         margin-left: auto;
@@ -2659,7 +2658,8 @@ width: 400px;
 }
 .heartbounce2{
     padding-right: 40px;
-}
+    }
+
     .warning{
        max-width: 270px !important;
     margin-left: auto;
@@ -2671,5 +2671,43 @@ width: 400px;
     }
     .baffled{
         font-size: 72px;
+    }
+    .intro{
+        font-weight: 300;
+    }
+    .convorow1{
+      padding-top: 280px; 
+      max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .squareeye{
+        max-width: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .load{
+        max-width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .screenrow5{
+        padding-top: 300px;
+    }
+    .phonehome{
+        max-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .baffledtitle{
+    margin-top: -30px;
+        max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+}
+    .warningbody{
+        background-color: #fc5162
     }
 }
