@@ -1,3 +1,41 @@
+.baffled{
+    text-align: center;
+    font-size: 127px;
+    
+}
+.baffledtitle{
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+}
+.landbody{
+    background-color: #c282ef;
+    height: 100vh;
+}
+.comphome2{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+    max-width: 200px;
+}
+.landing{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+.presents{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18vh;
+}
+
+
+
+
 body {
     font-family: 'Oswald', sans-serif;
 }
@@ -1397,7 +1435,7 @@ background-color: black;
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0); /* Black w/ opacity */
-    margin-top: -250px;
+   /* margin-top: -250px;*/
 }
 
 /* Modal Content/Box */
@@ -1468,6 +1506,7 @@ background-color: black;
 }
 .seriously:hover{
     background-color: #fc7388;
+    color: white;
 }
 .seriously{
     padding-top: 12px;
@@ -1475,6 +1514,7 @@ background-color: black;
     padding-left: 35px;
     padding-right: 35px;
     background-color: #fc5162;
+    color: white;
 }
 .space1{
     padding: 10px;
@@ -1486,9 +1526,17 @@ background-color: black;
 .requesticon2{
 margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    max-width: 250px;
     margin-top: 200px;
     z-index: 1;
+  padding-bottom: 00px;
+        margin-top: 100px;
+}
+
+.decision{
+    font-size: 54px;
+    color: white;
+     text-align: center;
 }
 
 /*////////////////FREIND REQUEST////////////////////*/
@@ -1635,13 +1683,7 @@ margin-left: auto;
    position: relative;
     margin: 2px;
 }
-.requesticon2{
-margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-top: 200px;
-    z-index: 1;
-}
+
 /********************/
 .modalcontract{
     background-color:#94ffe5 !important;
@@ -1652,8 +1694,23 @@ margin-left: auto;
 }
 
 /*////////////////CONTRACT////////////////////*/
-
-
+.warningcomp3{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    overflow: hidden;
+}
+.congratsbody{
+    background-color: #008cff;  
+}
+.backtoweb2{
+    background-color: #6cccff;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .warningbody{
     background-image: url(file:///Users/apple/Documents/3rd%20Year%20Viscom/Website_coding/redesign/Warning.gif);
     background-repeat:repeat-y;
@@ -1670,7 +1727,19 @@ margin-left: auto;
 .warningmobile{
     display: none;
 }
+.congratsmobile{
+    display: none;
+}
 .warningp{
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: -60vh;
+    position: relative;
+ 
+}
+.congratsp{
     color: white;
     font-family: Roboto;
     font-size: 18px;
@@ -1707,6 +1776,10 @@ margin-left: auto;
 .phonehome{
     display: none;
     padding-top: 15vh;
+}
+.phonehome2{
+    display: none;
+    padding-top: 20px;
 }
 .comphome{
     margin-left: auto;
@@ -2210,9 +2283,6 @@ width: 500px;
 
 
 
-
-
-
 /*//////////////SMALL//////////*/
 
 @media only screen and (max-width: 576px){
@@ -2230,6 +2300,13 @@ width: 400px;
         width: 100vw;
         margin-left: -5%;
     }
+     .congratsmobile{
+        display: block;
+        width: 100vw;
+        margin-left: -5%;
+         padding-top: 20vh;
+         padding-bottom: 10vh;
+    }
     .warningcomp{
         display: none;
     } 
@@ -2245,10 +2322,21 @@ width: 400px;
         margin-left: auto;
         margin-right: auto;
     }
+     .phonehome2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100px;
+    }
     .comphome{
         display: none;
     }   
-    
+     .comphome2{
+        display: none;
+    }  
+    .baffled{
+        font-size: 102px;
+    }
    .requesticon{
     margin-left: 43%;
     margin-right: 43%;
@@ -2404,7 +2492,15 @@ width: 400px;
     position: relative;
     max-width: 310px;
 }
-    
+       .congratsp{
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 24px;
+    top: 160px;
+    position: relative;
+    max-width: 300px;
+}
 }
 
 
