@@ -1,3 +1,44 @@
+/*
+.baffled{
+    text-align: center;
+    font-size: 287px;
+    font-weight: 700;
+}
+.baffledtitle{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    margin-bottom: -180px;
+}
+.baff{
+    font-family: 'Oswald';
+}
+.landbody{
+    background-color: #c282ef;
+    height: 100vh;
+}
+.comphome2{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+    max-width: 200px;
+}
+.landing{
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+.presents{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 18vh;
+}
+*/
+
 .baffled{
     text-align: center;
     font-size: 127px;
@@ -2522,6 +2563,11 @@ width: 400px;
     position: relative;
     max-width: 300px;
 }
+    .landing{
+        max-width: 290px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
