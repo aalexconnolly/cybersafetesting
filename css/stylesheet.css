@@ -1,54 +1,117 @@
-/*
-.baffled{
+
+.modal2 {
+  display: none; /* Hidden by default */
+  position: relative; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0); /* Black w/ opacity */
+   /* margin-top: -250px;*/
+    position: fixed;
+    z-index: 20;
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color:#dab3f5;
+  margin: 14% auto; /* 15% from the top and centered */
+  padding: 0px;
+  width: 604px; 
+    border: none;
+    border-radius:    0px;
+    box-shadow: -5px 5px 10px #c282ef;
+
+}
+.homepopup{
+    font-size: 127px;
+    color: #c282ef;
     text-align: center;
-    font-size: 287px;
-    font-weight: 700;
+    padding-top: 20px
 }
-.baffledtitle{
-    max-width: 1100px;
+.homepopup2{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -100px;
-    margin-bottom: -180px;
 }
-.baff{
-    font-family: 'Oswald';
-}
-.landbody{
-    background-color: #c282ef;
-    height: 100vh;
-}
-.comphome2{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+
+.homepopup3{
+    color: white;
+    font-size: 18px;
+    text-align: center;
     padding-top: 20px;
-    max-width: 200px;
+    padding-bottom: 60px;
+
 }
-.landing{
-    max-width: 440px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10px;
+.questionhome{
+margin-left: 5px;
+    max-width: 35px;
+    margin-top: 15px;
+    z-index: 1;
+    position: fixed;
 }
-.presents{
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 18vh;
+.questionhome:hover{
+    max-width: 40px;
+    transition: 0.3s ease;
+    margin-left: 3px;
+    margin-top: 12px;
 }
-*/
+.introbtn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #c282ef;
+    color: white;
+}
+.introbtn:hover{
+    background-color: #ce99f3;
+    color: white;
+}
+.backbtn:hover{
+    background-color: #ce99f3;
+    color: white;
+}
+.backbtn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #c282ef;
+    color: white;
+}
+.flash{
+   position: relative;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+
 
 .baffled{
     text-align: center;
     font-size: 127px;
+    line-height: 150px; 
     font-weight: 700;
 }
 .baffledtitle{
-    max-width: 550px;
+    max-width: 883px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -40px;
+    margin-top: 20vh;
 }
 .baff{
     font-family: 'Oswald';
@@ -74,10 +137,28 @@
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 18vh;
+    padding-top: 13vh;
 }
-
-
+.landbutton{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #dab3f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h19{
+    font-size: 18px;
+    color: white;
+}
+h19:hover{
+    color: #c282ef;
+}
+.landrow2{
+    max-width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
 
 
 body {
@@ -2756,4 +2837,30 @@ width: 400px;
     .warningbody{
         background-color: #fc5162
     }
+}
+
+
+
+.redfoot1{
+    font-size: 27px;
+    color: #fc5162;
+    padding-left: 100px;
+}
+.redfoot2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fc5162;
+}
+.footericon{
+    padding-right: 20px;
+    width: 55px;
+}
+.footericon:hover{
+    width: 60px;
+    transition: 0.3 ease;
+}
+.footericons{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
