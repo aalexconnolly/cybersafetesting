@@ -2839,8 +2839,21 @@ width: 400px;
     }
 }
 
-
-
+.baffledhome{
+    font-size: ;
+    color: white !important;
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 20px;
+    z-index: 100;
+    font-size: 27px;
+}
+.baffledhome:hover{
+    transition: 0.3s ease;
+    margin-top: 27px;
+    margin-left: 17px;
+    color: black;
+}
 .redfoot1{
     font-size: 27px;
     color: #fc5162;
@@ -2850,6 +2863,56 @@ width: 400px;
     font-size: 18px;
     line-height: 24px;
     color: #fc5162;
+}
+.bluefoot1{
+    font-size: 27px;
+    color: #008cff;
+    padding-left: 100px;
+}
+.bluefoot2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #008cff;
+}
+.greenfoot1{
+    font-size: 27px;
+    color: #00ce9c;
+    padding-left: 100px;
+}
+.greenfoot2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #00ce9c;
+}
+.purplefoot1{
+    font-size: 27px;
+    color: #c282ef;
+    padding-left: 100px;
+}
+.purplefoot2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #c282ef
+}
+.purple2foot1{
+    font-size: 27px;
+    color: #dab3f5;
+    padding-left: 100px;
+}
+.purple2foot2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #dab3f5;
+}
+.blue2foot1{
+    font-size: 27px;
+    color: #6cccff;
+    padding-left: 100px;
+}
+.blue2foot2{
+    font-size: 18px;
+    line-height: 24px;
+    color: #6cccff;
 }
 .footericon{
     padding-right: 20px;
@@ -2863,4 +2926,7 @@ width: 400px;
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
+}
+.footerlink:hover{
+    color: white;
 }
