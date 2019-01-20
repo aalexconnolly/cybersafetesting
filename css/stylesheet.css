@@ -272,7 +272,7 @@ body {
     font-size: 27px;
     color: white;
     z-index: 4;
-    margin-top: 14.8vh;
+    margin-top: 6vh;
     position: absolute;
     white-space: nowrap;
 }
@@ -319,25 +319,48 @@ a:hover{
     text-decoration: none
 }
 
-.homehscreen{
-    margin-left: 32%;
-    margin-right: 32%;
+
+.cap1{
+    max-width: 135px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.homehlocation{
-    margin-left: 20%;
+.cap2{
+    max-width: 217px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.homehvalid{
-    margin-left: 20%;
+.cap3{
+    max-width: 214px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.homehprivacy{
-    margin-left: 22%;
+.cap4{
+    max-width: 104px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.homehtalk{
-    margin-left: 25%;
+.cap5{
+    max-width: 205px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.homehcyber{
-    margin-left: 18%;
+.cap6{
+    max-width: 154px;
+    margin-left: auto;
+    margin-right: auto;
 }
+.cap7{
+    max-width: 197px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cap8{
+    max-width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .homebox{ 
     position: relative;
@@ -381,7 +404,7 @@ a:hover{
     margin-top: 1.8vh;
 }
 .phonesmtop2{
-    margin-top: 2.7vh;
+    margin-top: 0.8vh;
 }
 /*//////////////HOME///////////////*/
 
@@ -2423,6 +2446,90 @@ width: 500px;
 /*//////////////SMALL//////////*/
 
 @media only screen and (max-width: 576px){
+    
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color:#dab3f5;
+  margin: 40% auto; /* 15% from the top and centered */
+  padding: 0px;
+  width: 300px; 
+
+
+}
+.homepopup{
+    font-size: 72px;
+    color: #c282ef;
+    text-align: center;
+    padding-top: 10px
+}
+.homepopup2{
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homepopup3{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+}
+.questionhome{
+margin-left: 5px;
+    max-width: 35px;
+    margin-top: 15px;
+    z-index: 1;
+    position: fixed;
+}
+.questionhome:hover{
+    max-width: 40px;
+    transition: 0.3s ease;
+    margin-left: 3px;
+    margin-top: 12px;
+}
+.introbtn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #c282ef;
+    color: white;
+}
+.introbtn:hover{
+    background-color: #ce99f3;
+    color: white;
+}
+.backbtn:hover{
+    background-color: #ce99f3;
+    color: white;
+}
+.backbtn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #c282ef;
+    color: white;
+}
+.flash{
+   position: relative;
+    margin: 2px;
+    width: 298px;
+    height: 25px;
+}
+
+
+    
+    
+    
+    
     .modal-content{
 width: 400px; 
 }
