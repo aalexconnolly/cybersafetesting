@@ -113,6 +113,9 @@ margin-left: 5px;
     margin-right: auto;
     margin-top: 20vh;
 }
+  .baffledtitlemobile{
+    display: none;
+}
 .baff{
     font-family: 'Oswald';
 }
@@ -154,7 +157,7 @@ h19:hover{
     color: #c282ef;
 }
 .landrow2{
-    max-width:300px;
+    max-width:285px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
@@ -665,7 +668,22 @@ p{
     width: 205px;
     display: inline-block;
 }
+.convobutton2{
+    background-color: #65face;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 36px;
+    padding-right: 2px;
+    font-size: 18px;
+    width: 205px;
+    display: inline-block;
+}
 .convobutton:hover{
+    color: white;
+    /*background-color: #fc5162;*/
+}
+
+.convobutton2:hover{
     color: white;
     /*background-color: #fc5162;*/
 }
@@ -815,7 +833,7 @@ h31{
 .introdanger{
         margin-left: auto;
         margin-right: auto;
-        max-width:580px;
+        max-width:510px;
        padding-bottom: 200px;
 }
 .supportdanger{
@@ -1121,7 +1139,9 @@ h1{
     padding-bottom: 10vh;
 }
 
-
+.hundredgap{
+    padding: 100px;
+}
 .icrow2{
     margin-right: auto;
     margin-left: auto;
@@ -1161,12 +1181,25 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
+.factsrow1{
+      padding-top: 300px; 
+      max-width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .validp{
     padding-bottom: 300px;
     max-width: 590px;
     float: right;
 }
+.factsp{  
+        padding-bottom: 240px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    }
 .validp2{
     padding-bottom: 300px;
     max-width: 590px;
@@ -1187,7 +1220,11 @@ h1{
 
 
 
-
+.slideshow1{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -1424,7 +1461,11 @@ z-index: 0;
         visibility: visible;
         position: relative;
     }
-    
+    .slideshow1{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 /*//////////////////SLIDESHOW/////////*/
 * {box-sizing: border-box}
@@ -1470,6 +1511,7 @@ body {font-family: Oswald, sans-serif; margin:0; }
 
 
 
+
 #slidetext {
   color: white;
   font-size: 9vh;
@@ -1481,12 +1523,17 @@ body {font-family: Oswald, sans-serif; margin:0; }
     margin-right: 10vw;
     line-height: 11vh;
 }
+
+
 .textblack{
 color: black;
 }
-
+#slideshowback{
+    background-color: transparent;
+    padding-bottom: 20px;
+}
 /* The dots/bullets/indicators */
-.dot {
+dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -1503,6 +1550,34 @@ color: black;
 .dot:active{
 background-color: black;
 }
+
+
+
+#dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, #dot:hover {
+  background-color: black;
+}
+#dot:active {
+  background-color: black;
+}
+#dot:active{
+background-color: black;
+}
+
+
+
+
+
 
 /* Fading animation */
 .fade {
@@ -2179,7 +2254,7 @@ width: 500px;
     .introdanger{
         margin-left: auto;
         margin-right: auto;
-        max-width:370px;
+        max-width:340px;
        padding-bottom: 200px;
 }
     .introscreen{
@@ -2227,7 +2302,8 @@ width: 500px;
     }
     
     
-    
+
+  
     
     .heartbounce2{
     max-width: 170px;
@@ -2240,6 +2316,19 @@ width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
+    .factsrow1{
+      padding-top: 200px; 
+      max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .factsp{
+        padding-top: 40px;
+        padding-bottom: 240px;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    }
 
 .validp{
     padding-bottom: 240px;
@@ -2395,7 +2484,13 @@ width: 500px;
     padding-top: 10vh;
         padding-bottom: 5vh;
 }
-    
+    .cyberwhatwedo{
+    max-width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vh;
+    padding-bottom: 45vh;
+}
     
     
     .contactlinks{
@@ -2466,6 +2561,20 @@ width: 500px;
 /*//////////////SMALL//////////*/
 
 @media only screen and (max-width: 576px){
+    
+    .baffledtitle{
+        display: none;
+    }
+      .baffledtitlemobile{
+          display: block;
+    margin-top: 17vh;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+}
+    .landrow2{
+        margin-top: 40px;
+    }
     
 
 /* Modal Content/Box */
@@ -2720,6 +2829,19 @@ width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
+    .factsrow1{
+      padding-top: 200px; 
+      max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .factsp{
+        padding-top: 40px;
+        padding-bottom: 240px;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    }
 
 .validp{
     padding-bottom: 240px;
@@ -2727,11 +2849,13 @@ width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
+    
     .validp2{
     padding-bottom: 240px;
     max-width: 300px;
    margin-left: auto;
         margin-right: auto;
+            padding-top: 40px;
 }
     .introsupport{
         margin-left: auto;
@@ -2790,6 +2914,13 @@ width: 400px;
         margin-right: auto;
         font-weight: 300;
     }
+    .cyberwhatwedo{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vh;
+    padding-bottom: 45vh;
+}
      h1{
         font-size: 72px !important; 
         line-height: 78px !important;
@@ -2960,6 +3091,9 @@ width: 400px;
         max-width: 280px;
         margin-left: auto;
         margin-right: auto;
+}
+.baffledtitlemobile{
+    
 }
     .warningbody{
         background-color: #fc5162

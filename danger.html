@@ -9,7 +9,7 @@
         
       <link href="https://fonts.googleapis.com/css?family=Oswald:600|Roboto:100,300,700" rel="stylesheet">
       
-    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <!--Here I will link my own css page. We load bootstrap first and then ours-->
       
         <link rel= "stylesheet" type="text/css" href="css/stylesheet.css">
@@ -21,24 +21,25 @@
     </head> <!--closing head-->
     <!--  /////////////////////OPENING CONTAINER///////////////////////////-->
     <body>
-    <div class="container-fluid">
+ <div class="container-fluid">
   
    
-        <div class="row">
-            <div class="col">
-           <a href="home.html" class="dangerhome"> <h31>BAFFLED?</h31></a>
-        </div>
-   
-        
      
-        
-<div class="panel" data-color="palered">        
+     
+     
+     <div class="panel" data-color="palered">        
    <!--  /////////////////////ROW 1///////////////////////////-->
+         
+         <div class="row">
+            <div class="col">
+           <a href="home.html" class="baffledhome"> <h3>BAFFLED?</h3></a>
+        </div>
+        </div>
 
  
  <div class="row">  
-             <div class="col">
-                 <h1 class="dangertitle"> FACTS </h1>
+             <div class="col locationrow1">
+                 <h1 class="location"> FACTS </h1>
            </div>     
      </div>    
         
@@ -89,84 +90,89 @@
         
      
  <!--  ////////////////////// ROW 4///////////////////////////-->       
-        <div class="row privrow4">
+        <div class="row">
             <div class="scroll-down"></div>
         </div>
-  <!--  ////////////////////// ROW 4///////////////////////////-->  
+  <!--  ////////////////////// ROW 4///////////////////////////-->     </div>   
+     
+     
+     
         
-        </div> 
-        
-        
-        
-        
-        
-        
- 
-            
-            
-            
-            
-   <div class="panel" data-color="red">        
-     <div class="slideshow-container">
-
-         
+<div class="panel" data-color="red"> 
+    
     <div class="row">
           <div class="introdanger"> 
-            <p class="intro">Let’s start with getting the facts straight as there is plenty of information out there that will confuse, mislead or even terrify you. <span class="bold white">Our intention is not to shock you but to inform you.</span> </p>
+            <p class="intro">Let’s start with getting the facts straight as there is plenty of information out there that could confuse, mislead or even terrify you. <span class="bold white">Our intention is not to shock you but to inform you.</span> </p>
         </div> 
-       </div>     
-         
-         
-         
-
-       
-       
-<div class="slideshow-container">
-
-<div class="mySlides fade"> 
-  <div><h3 id="slidetext"> <span class="textblack">70%</span> OF <span class="textblack">8-13 </span>YEAR OLDS<br> ARE USING <span class="textblack">SOCIAL MEDIA</span> <br> AND  MESSAGING APPS</h3></div>  
+       </div>   
+    
+        
+   
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+ 
+  <div class="carousel-inner slideshow1" id="slideshowback">
+    
+      
+      <div class="carousel-item active" id="slideshowback">
+        <h3 class=" w-100" id="slidetext"> <span class="textblack">70%</span> OF <span class="textblack">8-13 </span>YEAR OLDS<br> ARE USING <span class="textblack">SOCIAL MEDIA</span> <br> AND  MESSAGING APPS</h3>
+        </div>
+    
+      
+      <div class="carousel-item" id="slideshowback">
+          <h3 class=" w-100" id="slidetext"> <span class="textblack">32%		</span> OF CHILDREN ARE<br> TALKING TO <span 				class="textblack">STRANGERS <br></span> AT LEAST ONCE A WEEK </h3>
+        </div>
+    
+      <div class="carousel-item" id="slideshowback">
+        <h3 class=" w-100" id="slidetext"> <span 						class="textblack">53%</span><span class="textblack">11-16 </span>YEAR OLD BOYS<br>WHO HAD VIEWED <span 								class="textblack">PORNOGRAPHY</span><br> THOUGHT IT WAS REALISTIC</h3>
+        </div>
+        
+ 
+        <div class="carousel-item" id="slideshowback">
+        <h3 class=" w-100" id="slidetext">  <span class="textblack">OVER TWO THIRDS</span> OF <span class="textblack">12-18</span><br> YEAR OLD GIRLS HAVE BEEN<br> ASKED FOR <span class="textblack">EXPLICIT IMAGES</span></h3>
+        </div>
+      
+      <div class="carousel-item" id="slideshowback">
+        <h3 class=" w-100" id="slidetext">  <span class="textblack">58%</span> OF CHILDREN <span class="textblack">HAVE NOT</span><br>TOLD A PARENT/CARER ABOUT <br> SOMETHING THAT<span class="textblack"> UPSET</span> THEM</h3>
+        </div>
+      
+      
+        </div>
+        
+        
+        <ol class="slideshowdots carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" id="dot" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" id="dot"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" id="dot"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3" id="dot"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4" id="dot"></li>
+      </ol>
+        
+        
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
-
-<div class="mySlides fade"> 
-	<div>
-	<h3 id="slidetext"> <span class="textblack">32%		</span> OF CHILDREN ARE<br> TALKING TO <span 				class="textblack">STRANGERS <br></span> AT LEAST ONCE A WEEK </h3></div>
-</div>
-
-<div class="mySlides fade">
-        <div><h3 id="slidetext"> <span 						class="textblack">53%</span><span class="textblack">11-16 </span>YEAR OLD BOYS<br>WHO HAD VIEWED <span 								class="textblack">PORNOGRAPHY</span><br> THOUGHT IT WAS REALISTIC</h3>			</div>
-</div>
-
-<div class="mySlides fade">
-		 <div><h3 id="slidetext"> <span class="textblack">OVER TWO THIRDS</span> OF <span class="textblack">12-18</span><br> YEAR OLD GIRLS HAVE BEEN<br> ASKED FOR <span class="textblack">EXPLICIT IMAGES</span></h3>			</div>
-</div>
-
-<div class="mySlides fade">
-    <div><h3 id="slidetext"> <span class="textblack">58%</span> OF CHILDREN <span class="textblack">HAVE NOT</span><br>TOLD A PARENT/CARER ABOUT SOMETHING THAT<span class="textblack"> UPSET</span> THEM</h3> </div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)"><div class="prevarrow"></div></a>
-<a class="next" onclick="plusSlides(1)"><div class="nextarrow"></div></a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span> 
-  <span class="dot" onclick="currentSlide(5)"></span> 
-</div>
-</div>
-
-
-       
-       </div>  
         
         
         
         
         
+        
+        
+     </div>
+     
+     
+     
+     
+     
+     <!--/////////////////////////////////-->
+     
       <div class="panel" data-color="palered">  
                 
           
@@ -175,13 +181,13 @@
           
           
           
-           <div class="row validrow1">
+           <div class="row factsrow1">
           <div class="heartbounce2">
                 <img src="images/Explicit.gif" alt="Responsive image" class="heartbounce">
               </div>
                
                
-    <div class="validp2"> 
+    <div class="factsp"> 
            
             <h2 class="white">IF SOMETHING DOES GO WRONG</h2>
             <p class="red">Children need to know that if they ever come across anything online that upsets or worries them, even if they have broken a rule, they can <span class="bold red">ALWAYS</span> talk to you. </p>
@@ -196,62 +202,67 @@
           
           
      <!-- /////////////////NEXT BUTTONS//////////////////   -->        
-     <div class="dangerrow1">
-                    
+          <span class="hundredgap"></span>
           
-                   
-                   <a href="convo.html" class="supportdanger green">TALKING TECH<img src="images/convo.gif" class="supportsm2"><!--<div class="arrowleft"></div>--></a> 
-               
+          <div class="row icrow2">
+          
+                     
+                   <a href="convo.html" class="convobutton2 green">TALKING TECH<!--<div class="arrowleft"></div>--><img src="images/convo.gif" class="screensm"></a>            
+             
+                    <div class="gap"></div>
                         
-                   <a href="friendrequest.html" class="requestdanger blue"><img src="images/friend_request.gif" class="requestsm">FRIEND REQUESTS<!--<div class="arrowleft"></div>--></a>            
+                   <a href="friendrequest.html" class="validbutton blue"><img src="images/friend_request.gif" class="validsm">FRIEND REQUESTS<!--<div class="arrowleft"></div>--></a>             
+            
+               
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          <div class="row">
+              <div class="col">
+                <h2 class="redfoot1">BAFFLED?</h2>
+              </div>
               
-
-       
-        </div> 
+              
+              <div class="col">
+                <p class="redfoot2"><a href="https://cybersafeireland.org/" class="red footerlink">www.cybersafeireland.org </a> <br>
+info@cybersafeireland.org</p>
+              </div>
+              
+              
+              <div class="col">
+                <p class="redfoot2">93 Upper Georges St,<br>
+                Dun Laoghaire,<br> Co. Dublin,<br>
+                    Ireland.</p>
+              </div>
+              <div class="col footericons">
+                  <a href="#" ><img class="footericon"src="images/footericons/instared.png"></a>
+                  
+                  <a href="#" ><img class="footericon"src="images/footericons/fbred.png"></a>
+                  
+                  <a href="#"><img class="footericon"src="images/footericons/snapred.png"></a>
+              </div>
+       </div> 
       <!-- /////////////////NEXT BUTTONS//////////////////   -->  
        
         </div> 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+        </div>
         
         
         
-        
-        </div><!--closing container-->
-       
-        
-        
-        
-        
-        
-        
-      <script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script> 
-
             <script>
             function openNav() {
               document.getElementById("myNav").style.width = "50%";
