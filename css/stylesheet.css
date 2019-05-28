@@ -339,7 +339,7 @@ a:hover{
     margin-right: auto;
 }
 .cap4{
-    max-width: 104px;
+    max-width: 200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -363,7 +363,11 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
 }
-
+.cap9{
+    max-width:60px;
+    margin-left: auto;
+    margin-right: auto; 
+}
 
 .homebox{ 
     position: relative;
@@ -1530,7 +1534,7 @@ color: black;
 }
 #slideshowback{
     background-color: transparent;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 /* The dots/bullets/indicators */
 dot {
