@@ -2115,6 +2115,12 @@ margin-left: auto;
 
 
 
+.bluefootshort{
+    display: none;
+    opacity: 0;
+    font-size: 18px;
+    color: #008cff;
+}
 
 
 
@@ -2551,10 +2557,27 @@ width: 500px;
     .network1{
         display: none;
     }
+    .footercentre{
+        max-width: 240px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 40px;
+    }
+    .addressfoot{
+        display: none;
+    }
+.bluefootshort{
+    display: block;
+    opacity: 1;
+        color: #008cff;
+    text-align: center;
+    }
+    .footercyberlogo{
+        padding:  10px;
+    }
+
 
 }
-
-
 
 
 
@@ -2565,6 +2588,7 @@ width: 500px;
 /*//////////////SMALL//////////*/
 
 @media only screen and (max-width: 576px){
+    
     
     .baffledtitle{
         display: none;
@@ -2616,7 +2640,7 @@ width: 500px;
 }
 .questionhome{
 margin-left: 5px;
-    max-width: 35px;
+    max-width: 30px;
     margin-top: 15px;
     z-index: 1;
     position: fixed;
@@ -2829,7 +2853,7 @@ width: 400px;
 }
 .validrow1{
       padding-top: 380px; 
-      max-width: 280px;
+      max-width: 360px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -3187,11 +3211,42 @@ width: 400px;
     width: 60px;
     transition: 0.3 ease;
 }
+.footericon3{
+    padding-right:0px;
+    width: 38px;
+}
+.footericon3:hover{
+    width: 44px;
+    transition: 0.3 ease;
+}
 .footericons{
-    max-width: 300px;
+    max-width: 194px;
     margin-left: auto;
     margin-right: auto;
 }
 .footerlink:hover{
     color: white;
 }
+.footercyberlogo{
+    max-width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.red{
+    color:#fc5162; 
+}
+
+
+
+
+@media only screen and (max-width: 728px){
+            
+ .footericon:hover{
+    width: 55px;
+
+}
+.footericon3:hover{
+    width: 38px;
+    
+}
+    }
