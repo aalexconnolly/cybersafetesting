@@ -273,7 +273,7 @@ body {
 
 .hometitle{
     font-size: 27px;
-    color: white;
+  color: white;
     z-index: 4;
     margin-top: 6vh;
     position: absolute;
@@ -2588,7 +2588,12 @@ width: 500px;
 /*//////////////SMALL//////////*/
 
 @media only screen and (max-width: 576px){
-    
+       .flash2{
+   position: relative;
+    margin: 2px;
+    width: 298px ;
+    height: 25px;
+}
     
     .baffledtitle{
         display: none;
@@ -2678,12 +2683,12 @@ margin-left: 5px;
 .flash{
    position: relative;
     margin: 2px;
-    width: 298px;
+    width: 398px;
     height: 25px;
 }
 
 
-    
+
     
     
     
@@ -2936,6 +2941,15 @@ width: 400px;
 
 
 @media only screen and (max-width: 375px){
+    
+    .flash{
+   position: relative;
+    margin: 2px;
+    width: 298px;
+    height: 25px;
+}
+
+  
     p{
         max-width: 300px !important;
         margin-left: auto;
@@ -3232,10 +3246,36 @@ width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
+
+
+.blue{
+    color:#008cff; 
+}
+.ablack:hover{
+    color: black;
+}
+.blue2{
+    color: #6cccff;
+}
 .red{
     color:#fc5162; 
 }
-
+.green{
+    color:#00ce9c; 
+}
+.textgreen{
+    color: #00a47b;
+}
+.purple{
+    color:#c282ef; 
+}
+.purple2{
+    color:#dab3f5; 
+}
 
 
 
