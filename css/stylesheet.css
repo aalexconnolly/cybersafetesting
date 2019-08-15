@@ -1,3 +1,104 @@
+.convobottomspace{
+    padding-bottom: 30vh;
+}
+
+.backhomepurple {
+background-color:   #dab3f5;
+    font-size: 27px;
+    color: #c282ef;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.backhoverpurple :hover {
+    color: #c282ef;
+    background-color: white;
+}
+
+.backhomepurple2 {
+background-color:   #c282ef;
+    font-size: 27px;
+    color: #dab3f5;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.backhoverpurple2 :hover {
+    color: #dab3f5;
+    background-color: white;
+}
+
+.backhomegreen {
+background-color:   #00ce9c;
+    font-size: 27px;
+    color: #65face;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.backhovergreen :hover {
+    color: #65face;
+    background-color: white;
+}
+
+.backhomered {
+background-color:   #fc5162;
+    font-size: 27px;
+    color: #ffb1ba;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+.backhoverred :hover {
+    color: #ffb1ba;
+    background-color: white;
+}
+
+.backhoverblue2 :hover {
+    color: #008cff;
+    background-color: white;
+}
+
+.backhomeblue2 {
+background-color:  #6cccff;
+    font-size: 27px;
+    color:  #008cff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.backhoverblue :hover {
+    color: #6cccff;
+    background-color: white;
+}
+
+.backhomeblue {
+background-color:   #008cff;
+    font-size: 27px;
+    color: #6cccff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.backhome{
+    max-width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.backhomepadding{
+    padding-top: 5vh;
+    padding-bottom: 30vh;
+}
 
 .modal2 {
   display: none; /* Hidden by default */

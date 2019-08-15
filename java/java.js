@@ -163,12 +163,12 @@ window.onclick = function(event) {
 
 
 
-var animation = bodymovin.loadAnimation({
-  container: document.getElementById('svgeye'),
-  renderer: 'svg',
+var svgContainer = document.getElementById('svgeye');
+var animItem = bodymovin.loadAnimation({
+  wrapper: svgeye,
+  animType: 'svg',
   loop: true,
-  autoplay: true,
-  path: 'eye.json'
-})
+  path: 'svg/eye.json'
+});
 
 
