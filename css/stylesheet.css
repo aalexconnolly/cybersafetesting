@@ -1,3 +1,6 @@
+
+
+
 .convobottomspace{
     padding-bottom: 30vh;
 }
@@ -138,7 +141,7 @@ background-color:   #008cff;
     line-height: 24px;
     color: white;
     text-align: center;
-    max-width: 300px;
+    max-width: 440px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -440,7 +443,7 @@ a:hover{
     margin-right: auto;
 }
 .cap4{
-    max-width: 200px;
+    max-width: 160px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1543,8 +1546,13 @@ z-index: 0;
 }
 
 
-
-
+.cybersafemobile{
+    display: none;
+!important
+}
+.cybersafetoobig{
+    display: block;
+}
 
 .rowphone{
     visibility: hidden;
@@ -1553,6 +1561,19 @@ z-index: 0;
 
 
 @media only screen and (max-width: 768px){
+    .cybersafemobile{
+    display: block;
+    font-size: 127px;
+    color: #c282ef;
+    text-align: center;
+        line-height: 150px;
+        padding-top: 30vh;
+}
+    .cybersafetoobig{
+    display: none;
+}
+
+    
     .homerow1{
         display: none;
 }
@@ -1796,6 +1817,22 @@ background-color: black;
 }
 
 /* The Close Button */
+.close3 {
+  color: #ff9faa;
+  margin-left: 95%;
+  font-size: 30px;
+  font-weight: bold;
+    margin-top: -38px;
+    text-decoration: none;
+    z-index: 5;
+}
+.close3:hover,
+.close3:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .close {
   color: white;
   margin-left: 95%;
@@ -2062,7 +2099,8 @@ margin-left: auto;
     background-repeat:repeat-y;
     background-position: center;
     background-size: cover;
-    z-index: 1;   
+    z-index: 1;  
+    background-color:  #fc5162;
 }
 .warningcomp2{
     margin-left: auto;
@@ -2689,6 +2727,15 @@ width: 500px;
 /*//////////////SMALL//////////*/
 
 @media only screen and (max-width: 576px){
+    .cybersafemobile{
+    display: block;
+    font-size: 102px;
+    color: #c282ef;
+    text-align: center;
+        line-height: 108px;
+        padding-top: 30vh;
+}
+    
        .flash2{
    position: relative;
     margin: 2px;
@@ -3042,6 +3089,15 @@ width: 400px;
 
 
 @media only screen and (max-width: 375px){
+    
+    .cybersafemobile{
+    display: block;
+    font-size: 72px;
+    color: #c282ef;
+    text-align: center;
+        line-height: 78px;
+        padding-top: 30vh;
+}
     
     .flash{
    position: relative;
