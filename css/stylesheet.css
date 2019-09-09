@@ -59,7 +59,21 @@ background-color:   #fc5162;
     padding-top: 8px;
     padding-bottom: 10px;
 }
-
+.backhomepalered {
+background-color:   #ffb1ba ;
+    font-size: 27px;
+    color: #fc5162;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.warningpadding{
+    margin-top: -200px;
+}
+.congratstop{
+    margin-top: -200px;
+}
 .backhoverred :hover {
     color: #ffb1ba;
     background-color: white;
@@ -79,6 +93,7 @@ background-color:  #6cccff;
     padding-top: 8px;
     padding-bottom: 10px;
 }
+
 .backhoverblue :hover {
     color: #6cccff;
     background-color: white;
@@ -98,6 +113,11 @@ background-color:   #008cff;
     margin-left: auto;
     margin-right: auto;
 }
+.backweb{
+    max-width: 275px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .backhomepadding{
     padding-top: 5vh;
     padding-bottom: 30vh;
@@ -113,7 +133,8 @@ background-color:   #008cff;
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: #0000; /* Fallback color */
-  background-color: #c282ef; /* Black w/ opacity */
+  background-color: #0000; /* Black w/ opacity */
+    transition: 5s ease;
    /* margin-top: -250px;*/
     position: fixed;
     z-index: 20;
@@ -186,8 +207,8 @@ margin-left: 5px;
 .backbtn{
     padding-top: 12px;
     padding-bottom: 12px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: #c282ef;
     color: white;
 }
@@ -438,7 +459,7 @@ a:hover{
     margin-right: auto;
 }
 .cap3{
-    max-width: 214px;
+    max-width: 120px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1785,7 +1806,9 @@ background-color: black;
 
 
 
-
+#homeclose{
+    margin-left: -10px;
+}
 
 
 
@@ -1848,11 +1871,13 @@ background-color: black;
   text-decoration: none;
   cursor: pointer;
 }
+
 .close2:hover,
 .close2:focus {
   text-decoration: none;
   cursor: pointer;
 }
+
 
 .popup{
     text-align: center;
@@ -2794,8 +2819,8 @@ width: 500px;
 .questionhome{
 margin-left: 5px;
     max-width: 30px;
-    margin-top: 15px;
-    z-index: 1;
+    margin-top: -5px;
+    z-index: 10000000;
     position: fixed;
 }
 .questionhome:hover{
@@ -3308,6 +3333,15 @@ width: 400px;
     z-index: 100;
     font-size: 27px;
 }
+.baffledhomehome{
+    font-size: ;
+    color: white !important;
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 10px;
+    z-index: 100;
+    font-size: 27px;
+}
 .baffledhome:hover{
     transition: 0.3s ease;
     margin-top: 27px;
@@ -3450,3 +3484,4 @@ width: 400px;
     
 }
     }
+

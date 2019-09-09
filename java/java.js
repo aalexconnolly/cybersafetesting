@@ -139,6 +139,7 @@ var div = document.getElementsByClassName("close2")[0];
 
 
 
+
 // When the user clicks on the button, open the modal 
 btn.onclick = function() {
   modal2.style.display = "block";
