@@ -419,7 +419,7 @@ body {
     font-size: 27px;
   color: white;
     z-index: 4;
-    margin-top: 6vh;
+    margin-top: 8vh;
     position: absolute;
     white-space: nowrap;
 }
@@ -521,7 +521,7 @@ a:hover{
     margin-right: auto;
 /*    height: 33vh;
     overflow: auto;*/
-    margin-top: 9vh;
+    margin-top: 7vh;
     cursor:;
 }
 .homeboxmiddle{ 
@@ -532,7 +532,7 @@ a:hover{
     margin-right: auto;
 /*    height: 34vh;
     overflow: auto;*/
-    margin-top: 9vh;
+    margin-top: 7vh;
 
 }
 .homebox:hover{
