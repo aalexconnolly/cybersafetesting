@@ -154,26 +154,70 @@ background-color:   #008cff;
 /* Modal Content/Box */
 .modal-content2 {
   background-color:#dab3f5;
-  margin: 14% auto; /* 15% from the top and centered */
+  margin: 13% auto; /* 15% from the top and centered */
   padding: 0px;
-  width: 604px; 
+  width: 520px; 
     border: none;
     border-radius:    0px;
     box-shadow: -5px 5px 10px #c282ef;
 
 }
+
+.modal-content4{
+  margin: 3% auto; /* 15% from the top and centered */
+    width: 90vw;
+  padding: 0px;
+  /*width: 520px; */
+    padding-bottom: 
+}
+.popupmodal{
+    background-color: #c282ef;
+}
+.switchon{
+  max-width: 176px;
+}
+.switchoff{
+    max-width: 176px;
+}
+.closepop{
+    display: none;
+}
+.switchondiv{
+    max-width: 176px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
+}
+.switchoffdiv{
+    max-width: 176px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -460px;
+}
+.poppop2{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homeflash{
+        width: 516px;
+        height: 25px;
+    }
 .homepopup{
-    font-size: 127px;
+    font-size: 92px;
     color: #c282ef;
     text-align: center;
-    padding-top: 20px
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 .homepopup2{
     font-size: 18px;
     line-height: 24px;
     color: white;
     text-align: center;
-    max-width: 440px;
+    max-width: 340px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -186,6 +230,7 @@ background-color:   #008cff;
     padding-bottom: 60px;
 
 }
+  
 .questionhome{
 margin-left: 5px;
     max-width: 35px;
@@ -1616,6 +1661,49 @@ z-index: 0;
         margin-left: auto;
         margin-right: auto;
     }
+    
+    
+    .modal-content4{
+  margin: 3% auto; /* 15% from the top and centered */
+    width: 90vw;
+  padding: 0px;
+  /*width: 520px; */
+    padding-bottom: 
+}
+.popupmodal{
+    background-color: #c282ef;
+}
+.switchon{
+  max-width: 176px;
+}
+.switchoff{
+    max-width: 176px;
+}
+.closepop{
+    display: none;
+}
+.switchondiv{
+    max-width: 176px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
+}
+.switchoffdiv{
+    max-width: 176px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -320px !important;
+}
+.poppop2{
+    max-width: 768px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+    .poppop{
+        width: 768px !important;
+    }
 }
 
 
@@ -1853,9 +1941,11 @@ background-color: black;
 
 
 
+/*
 #homeclose{
     margin-left: -10px;
 }
+*/
 
 
 
@@ -2371,6 +2461,51 @@ width: 600px;
 
 
 @media only screen and (max-width: 1200px){
+    
+    
+    .modal-content4{
+  margin: 3% auto; /* 15% from the top and centered */
+    width: 90vw;
+  padding: 0px;
+  /*width: 520px; */
+    padding-bottom: 
+}
+.popupmodal{
+    background-color: #c282ef;
+}
+.switchon{
+  max-width: 176px;
+}
+.switchoff{
+    max-width: 176px;
+}
+.closepop{
+    display: none;
+}
+.switchondiv{
+    max-width: 176px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
+}
+.switchoffdiv{
+    max-width: 176px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -400px;
+}
+.poppop2{
+    max-width: 991px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .poppop{
+        width: 991px;
+    }
+
+    
+    
    .warningcomp{
     margin-left: auto;
     margin-right: auto;
@@ -2452,11 +2587,53 @@ h4{
 
 
 @media only screen and (max-width: 728px){
+    .modal-content4{
+  margin: 3% auto; /* 15% from the top and centered */
+    width: 90vw;
+  padding: 0px;
+  /*width: 520px; */
+    padding-bottom: 
+}
+.popupmodal{
+    background-color: #c282ef;
+}
+.switchon{
+  max-width: 100px;
+}
+.switchoff{
+    max-width: 100px;
+}
+.closepop{
+    display: none;
+}
+.switchondiv{
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
+}
+.switchoffdiv{
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -240px !important;
+}
+.poppop2{
+    max-width: 576px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .poppop{
+        width: 576px !important;
+    }
+    
     #contactsvgrow{
         max-width: 520px;
         margin-left: auto;
         margin-right: auto;
     }
+    
         .modal-content{
 width: 500px;
 }
@@ -2808,6 +2985,56 @@ width: 500px;
 /*//////////////SMALL//////////*/
 
 @media only screen and (max-width: 576px){
+    
+    .poppop{
+        display: none;
+    }
+    
+    .modal-content4{
+  margin: 3% auto; /* 15% from the top and centered */
+    width: 90vw;
+  padding: 0px;
+  /*width: 520px; */
+    padding-bottom: 
+}
+.popupmodal{
+    background-color: #c282ef;
+}
+.switchon{
+  max-width: 120px;
+}
+.switchoff{
+    max-width: 120px;
+}
+.closepop{
+    display: none;
+}
+.switchondiv{
+    max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
+}
+.switchoffdiv{
+    max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -370px !important;
+}
+    .poppop2{
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        
+    }
+    .popphone{
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     #contactsvgrow{
         max-width: 480px;
         margin-left: auto;
@@ -2888,22 +3115,22 @@ width: 500px;
   background-color:#dab3f5;
   margin: 40% auto; /* 15% from the top and centered */
   padding: 0px;
-  width: 300px; 
-
-
+  width: 360px; 
 }
+
 .homepopup{
-    font-size: 72px;
+    font-size: 68px;
     color: #c282ef;
     text-align: center;
     padding-top: 10px
 }
+  
 .homepopup2{
-    font-size: 16px;
+    font-size: 16px !important;
     line-height: 24px;
     color: white;
     text-align: center;
-    max-width: 250px;
+    max-width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -2914,8 +3141,11 @@ width: 500px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 40px;
-
-}
+}    
+    #homeflash{
+        width: 356px;
+        height: 25px;
+    }
 .questionhome{
 margin-left: 5px;
     max-width: 30px;
@@ -3208,6 +3438,86 @@ width: 400px;
 
 
 @media only screen and (max-width: 375px){
+     .modal-content4{
+  margin: 3% auto; /* 15% from the top and centered */
+    width: 90vw;
+  padding: 0px;
+  /*width: 520px; */
+    padding-bottom: 
+}
+.popupmodal{
+    background-color: #c282ef;
+}
+.switchon{
+  max-width: 90px;
+}
+.switchoff{
+    max-width: 90px;
+}
+.closepop{
+    display: none;
+}
+.switchondiv{
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
+}
+.switchoffdiv{
+    max-width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -300px !important;
+}
+    .poppop2{
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;   
+    }
+    .popphone{
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .modal-content2 {
+  background-color:#dab3f5;
+  margin: 40% auto; /* 15% from the top and centered */
+  padding: 0px;
+  width: 320px; 
+}
+
+.homepopup{
+    font-size: 68px;
+    color: #c282ef;
+    text-align: center;
+    padding-top: 10px
+}
+  
+.homepopup2{
+    font-size: 16px !important;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+
+.homepopup3{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}    
+    #homeflash{
+        width: 316px;
+        height: 25px;
+    }
+    
      #contactsvgrow{
         max-width: 310px;
         margin-left: auto;
