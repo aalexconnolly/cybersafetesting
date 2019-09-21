@@ -2587,6 +2587,9 @@ h4{
 
 
 @media only screen and (max-width: 728px){
+    .contactgap{
+       padding-bottom:  100px;
+    }
     .modal-content4{
   margin: 3% auto; /* 15% from the top and centered */
     width: 90vw;
@@ -2985,7 +2988,9 @@ width: 500px;
 /*//////////////SMALL//////////*/
 
 @media only screen and (max-width: 576px){
-    
+    .contactgap{
+       padding-bottom:  100px;
+    }
     .poppop{
         display: none;
     }
