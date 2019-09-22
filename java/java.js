@@ -139,6 +139,9 @@ var div = document.getElementsByClassName("close2")[0];
 
 
 
+div.onclick = function() {
+ switchondiv.style.display = "none";
+}
 
 // When the user clicks on the button, open the modal 
 btn.onclick = function() {
@@ -161,6 +164,16 @@ window.onclick = function(event) {
     modal2.style.display = "none";
   }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
