@@ -674,6 +674,12 @@ h2{
     padding-left: 10vh;
     padding-right: 10vh;
 }
+.screenlge{
+    display: block;
+}
+.screensml{
+    display: none;
+}
 .img-fluid {
  max-width: 100%; 
   height: auto;
@@ -3020,6 +3026,12 @@ width: 500px;
 /*//////////////SMALL//////////*/
 
 @media only screen and (max-width: 576px){
+    .screenlge{
+    display: none;
+}
+.screensml{
+    display: block;
+}
     .contactgap{
        padding-bottom:  100px;
     }
@@ -3476,6 +3488,13 @@ width: 400px;
 
 
 @media only screen and (max-width: 375px){
+    .baffledhomehome{
+    font-size: 20px !important;
+    margin-left: -10px !important;
+        margin-top: 1ppx;
+}
+
+    
      .modal-content4{
   margin: 3% auto; /* 15% from the top and centered */
     width: 90vw;
@@ -3741,7 +3760,6 @@ width: 400px;
     .load{
         max-width: 95vw;
         margin-left: auto;
-        margin-right: auto;
         padding-left: 0;
         padding-right: 0;
     }
