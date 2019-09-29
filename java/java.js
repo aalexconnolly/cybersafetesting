@@ -128,6 +128,9 @@ function showSlides(n) {
 // Get the modal
 var modal2 = document.getElementById('myModal');
 
+// Get the modal
+var modal22 = document.getElementById('myModal');
+
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
 

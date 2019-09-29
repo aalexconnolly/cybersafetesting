@@ -150,11 +150,27 @@ background-color:   #008cff;
     position: fixed;
     z-index: 20;
 }
+.modal22 {
+  display: block; /* Hidden by default */
+  position: relative; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #0000; /* Fallback color */
+  background-color: #0000; /* Black w/ opacity */
+    transition: 5s ease;
+   /* margin-top: -250px;*/
+    position: fixed;
+    z-index: 20;
+}
 
 /* Modal Content/Box */
 .modal-content2 {
   background-color:#dab3f5;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 12% auto; /* 15% from the top and centered */
   padding: 0px;
   width: 520px; 
     border: none;
@@ -269,7 +285,6 @@ margin-left: 5px;
     padding-right: 45px;
     background-color: #c282ef;
     color: white;
-    margin-right: 10px;
 }
 .backbtn2:hover{
     background-color: #ce99f3;
