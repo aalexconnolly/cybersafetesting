@@ -253,7 +253,7 @@ background-color:   #008cff;
 margin-left: 5px;
     max-width: 35px;
     margin-top: 15px;
-    z-index: 1;
+    z-index: 100;
     position: fixed;
 }
 .questionhome:hover{
@@ -1180,7 +1180,7 @@ h4{
     padding-bottom: 300px;
 }
 .introscreen{
-    max-width: 608px;
+    max-width: 540px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -2894,7 +2894,7 @@ width: 500px;
 
     #slidetext {
       color: white;
-      font-size: 52px;
+      font-size: 52px !important;
       position: relative;
       max-width: 500px;
       text-align: left;
@@ -3041,6 +3041,13 @@ width: 500px;
 /*//////////////SMALL//////////*/
 
 @media only screen and (max-width: 576px){
+       .slideshow1{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+           padding-left: 50px;
+           padding-right: 50px;
+}
     .screenlge{
     display: none;
 }
@@ -3129,9 +3136,12 @@ width: 500px;
     }
     .baffledhomehome{
         margin-left: -5px;
-        margin-top: 10px;
-        font-size: 20px;
+        margin-top: 15px !important;
+        font-size: 20px !important;
         
+    }
+    .baffledhome{
+       font-size: 20px !important;  
     }
    
 
@@ -3495,6 +3505,9 @@ width: 400px;
         margin-left: auto;
         margin-right: auto;
     }
+    #slidetext{
+        font-size: 50px !important;
+    }
 }
 
 
@@ -3506,7 +3519,7 @@ width: 400px;
     .baffledhomehome{
     font-size: 20px !important;
     margin-left: -10px !important;
-        margin-top: 1ppx;
+        margin-top: 10px;
 }
 
     
@@ -3718,7 +3731,7 @@ width: 400px;
         padding-bottom: 10vh;
 }
  #slidetext {
-  font-size: 44px;
+  font-size: 44px !important;
   width: 80vw;
   text-align: left;
     margin-top: 0vh;
