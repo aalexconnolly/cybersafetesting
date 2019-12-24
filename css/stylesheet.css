@@ -1,4 +1,14 @@
-
+.homebox{ 
+    position: relative;
+    z-index: 5;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+/*    height: 33vh;
+    overflow: auto;*/
+    margin-top: 7vh;
+    cursor:;
+}
 .contactsvg{
     padding-top: 20px;
     font-size: 18px;
@@ -589,17 +599,7 @@ a:hover{
     margin-right: auto; 
 }
 
-.homebox{ 
-    position: relative;
-    z-index: 5;
-    max-width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-/*    height: 33vh;
-    overflow: auto;*/
-    margin-top: 7vh;
-    cursor:;
-}
+
 .homeboxmiddle{ 
     position: relative;
     z-index: 5;
